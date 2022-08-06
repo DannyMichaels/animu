@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid lime;
+}
+
+.title {
+  color: red;
+  font-size: 18px;
+}
+
+.list__container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.list__item {
+  border: 1px solid red;
+  padding: 10px;
+}
